@@ -1,6 +1,6 @@
 #Steps.
-- copy lib/main.dart to \<flurter app name\>/lib/main.dart
-- copy "labels" folder to \<flurter app name\>/
+- copy lib/main.dart to \<flutter app name\>/lib/main.dart
+- copy "labels" folder to \<flutter app name\>/
 - add labels assests to pubspec.yaml
  ```
   assets:
