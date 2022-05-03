@@ -57,7 +57,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   void printLabel() async {
-    printer.printImage(await loadImage('labels/broPrint.png'));
+    printer.printImage(await loadImage('labels/helloWorld.png'));
   }
 
   void printcanvas() async {
@@ -124,7 +124,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Image.asset('labels/broPrint.png'),
+            Image.asset('labels/helloWorld.png'),
             ElevatedButton(
               onPressed: initializePrinter,
               child: const Text('Initialize Printer'),
@@ -134,7 +134,7 @@ class _MyHomePageState extends State<MyHomePage> {
               style: Theme.of(context).textTheme.headline4,
             ),
             ElevatedButton(
-              onPressed: printcanvas,
+              onPressed: printLabel,
               child: const Text('Print Label'),
             ),
           ],
